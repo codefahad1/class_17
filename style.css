@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.herder{
+    background: #000;
+    height: 50px;
+}
+.img_logo img{
+    width: 81px;
+    padding: 5px 0;
+    text-align: center;
+}
+.menu {
+    margin-top: -21px;
+}
+.menu ul{
+    margin: 0;
+    transition: 1s;
+}
+.menu ul li{
+    padding: 13px 25px;
+    display: inline-block;
+    position: relative;
+
+}
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    /* padding: 13px 25px; */
+    color: white;
+    margin-left: -5px;
+    /* transition: 1s; */
+
+}
+.menu ul li a:hover{
+    border-bottom:1px solid #ddd;
+
+}
+
+
+.sub_menu {
+    width: 200px;
+    position: absolute;
+    margin-top: 14px;
+}
+.sub_menu ul{
+    background: #000;
+    padding: 0;
+    border-top: 2px solid #ddd;
+    height: 162px;
+    opacity: 0;
+    visibility: hidden;
+ 
+}
+.sub_menu1{
+    transition: .8s;
+}
+.sub_menu1:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.sub_menu ul li {
+    list-style: none;
+    display: block;
+    padding: 4px 40px 4px 1px;
+
+}
+.sub_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 26px;
+}
+.sub_menu ul li:hover{
+    background-color: #ddd;
+
+}
+.sub_menu ul li:hover a{
+    color: #000;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+
+
+.banner{
+    color: black;
+    background: url(./a0c6042d4612d7adf44692fffac7e082.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 300px 0;
+}
+.banner h1{
+    text-transform: uppercase;
+    font-weight: 750;
+    color: #223127;
+
+}
+.banner h4{
+    font-size: 23px;
+}
+.banner button{}
+.button{
+    padding-top: 20px;
+}
+button .contact_btn{
+    padding-left: 30px;
+}
+.btn{
+    padding: 10px 30px;
+}
+.star-button{
+    background: #000;
+    margin-right: 20px;
+    border:1px solid rgb(255, 255, 255);
+}
+.star-button:hover{
+    background: #fff;
+    color: #000;
+    border:1px solid #000;
+
+}
+
+
+.contact_btn:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+
+
+.about{
+    background-color: #87a471;
+}
+.about h1 {
+    text-align: center;
+    padding: 45px 0 0 0;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+.about p {
+    font-size: 14px;
+    margin: 55px 0;
+    color: white;
+}
+.about img {
+    width: 200px;
+    margin-left: 67px;
+}
+
+
+
+.do {
+    background: #606a64;
+    padding-bottom: 70px;
+}
+.do .text{
+    color: #fff;
+}
+.do .text h1{
+    padding: 45px 0 0 0;
+    font-weight: 700;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.do .text h5 {
+    font-size: 23px;
+    padding-bottom: 17px;
+}
+.do .text p {
+    width: 600px;
+    display: inline-block;
+    font-weight: 300;
+}
+
+.cor {
+    border-radius: 15px;
+    padding: 33px;
+    text-align: left;
+}
+
+.do .img img{
+    width: 33px;
+}
+.do .title h5{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.do .title p{
+    font-size: 12px;
+}
+
+
+
+.works{
+    background: #87a471;
+    color: white;
+    padding: 50px 0;
+}
+.title h4 {
+    padding: 20px 0;
+    font-size: 29px;
+}
+.title p{
+    padding: 0;
+    padding-bottom: 40px;
+}
+.works .img1 img{
+    width: 100%;
+}
+.img1{
+    padding: 0;
+
+}
+.mr{
+    padding-right:20px ;
+}
+.row .text{
+    padding: 15px 0;
+}
+.text p{
+    color: #4d6786;
+    font-weight: 600;
+}
+
+
+
+.team{
+    background:#5b9776;
+    padding: 50px;
+}
+.team .title{}
+.team .title h5{
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 40px 0px;
+    font-size: 30px;
+}
+.team .img img{
+    width: 310px;
+}
+i{
+    font-size: 27px;
+    color: white;
+    padding-top: 15px;
+    transition: .8s;
+}
+
+i:hover{
+    color: #606a64;
+}
+
+
+
+
+.work_us{
+    background: #606a64;
+    padding: 50px;
+    color: white;
+}
+.work_us p{
+    color: white;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    display: inline-block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.footer{
+    background: #000;
+    color: white;
+    padding: 15px 0;
+}
+.footer h4{
+    font-size: 20px;
+}
+
+.last{
+    background: #00736a;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.last:hover{
+    background: #304254;
+}
+.fahad{
+    margin-right: 15px;
+    display: inline-block;
+}
